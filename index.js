@@ -7,9 +7,10 @@ const opts = {
     capabilities: {
         "platformName": "LGTV",
         "appium:automationName" : "webOS",
-        "appium:deviceName" : "newTv",
+        "appium:deviceName" : "tv2",
+        "appium:deviceHost" : "192.168.0.174",
         "appium:chromedriverExecutable" : "/Users/kushagravarade/Downloads/chromedriver", // Path to your chromedriver
-        "appium:appPackage" : "com.robustets.app",
+        "appium:appId" : "com.robustets.app",
         "appium:rcMode" : "js",
     }
   };

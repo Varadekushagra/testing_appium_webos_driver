@@ -1,0 +1,124 @@
+Chalega
+2023-02-14T09:58:13.233Z INFO webdriver: Initiate new session using the WebDriver protocol
+2023-02-14T09:58:13.351Z INFO webdriver: [POST] http://127.0.0.1:4723/session
+2023-02-14T09:58:13.351Z INFO webdriver: DATA {
+  capabilities: {
+    alwaysMatch: {
+      platformName: 'LGTV',
+      'appium:automationName': 'webOS',
+      'appium:deviceName': 'tv2',
+      'appium:deviceHost': '192.168.0.174',
+      'appium:chromedriverExecutable': '/Users/kushagravarade/Downloads/chromedriver',
+      'appium:appId': 'com.robustets.app',
+      'appium:rcMode': 'js'
+    },
+    firstMatch: [ {} ]
+  },
+  desiredCapabilities: {
+    platformName: 'LGTV',
+    'appium:automationName': 'webOS',
+    'appium:deviceName': 'tv2',
+    'appium:deviceHost': '192.168.0.174',
+    'appium:chromedriverExecutable': '/Users/kushagravarade/Downloads/chromedriver',
+    'appium:appId': 'com.robustets.app',
+    'appium:rcMode': 'js'
+  }
+}
+2023-02-14T09:58:13.387Z WARN webdriver: Request failed with status 500 due to An unknown server-side error occurred while processing the command. Original error: Could not verify the appropriate LG WebOS TV SDK binaries exist. Ensure the LG_WEBOS_TV_SDK_HOME environment variable is set and the CLI dir exists inside of it with accessible permissions
+2023-02-14T09:58:13.387Z INFO webdriver: Retrying 1/3
+2023-02-14T09:58:13.387Z INFO webdriver: [POST] http://127.0.0.1:4723/session
+2023-02-14T09:58:13.387Z INFO webdriver: DATA {
+  capabilities: {
+    alwaysMatch: {
+      platformName: 'LGTV',
+      'appium:automationName': 'webOS',
+      'appium:deviceName': 'tv2',
+      'appium:deviceHost': '192.168.0.174',
+      'appium:chromedriverExecutable': '/Users/kushagravarade/Downloads/chromedriver',
+      'appium:appId': 'com.robustets.app',
+      'appium:rcMode': 'js'
+    },
+    firstMatch: [ {} ]
+  },
+  desiredCapabilities: {
+    platformName: 'LGTV',
+    'appium:automationName': 'webOS',
+    'appium:deviceName': 'tv2',
+    'appium:deviceHost': '192.168.0.174',
+    'appium:chromedriverExecutable': '/Users/kushagravarade/Downloads/chromedriver',
+    'appium:appId': 'com.robustets.app',
+    'appium:rcMode': 'js'
+  }
+}
+2023-02-14T09:58:13.405Z WARN webdriver: Request failed with status 500 due to An unknown server-side error occurred while processing the command. Original error: Could not verify the appropriate LG WebOS TV SDK binaries exist. Ensure the LG_WEBOS_TV_SDK_HOME environment variable is set and the CLI dir exists inside of it with accessible permissions
+2023-02-14T09:58:13.405Z INFO webdriver: Retrying 2/3
+2023-02-14T09:58:13.406Z INFO webdriver: [POST] http://127.0.0.1:4723/session
+2023-02-14T09:58:13.406Z INFO webdriver: DATA {
+  capabilities: {
+    alwaysMatch: {
+      platformName: 'LGTV',
+      'appium:automationName': 'webOS',
+      'appium:deviceName': 'tv2',
+      'appium:deviceHost': '192.168.0.174',
+      'appium:chromedriverExecutable': '/Users/kushagravarade/Downloads/chromedriver',
+      'appium:appId': 'com.robustets.app',
+      'appium:rcMode': 'js'
+    },
+    firstMatch: [ {} ]
+  },
+  desiredCapabilities: {
+    platformName: 'LGTV',
+    'appium:automationName': 'webOS',
+    'appium:deviceName': 'tv2',
+    'appium:deviceHost': '192.168.0.174',
+    'appium:chromedriverExecutable': '/Users/kushagravarade/Downloads/chromedriver',
+    'appium:appId': 'com.robustets.app',
+    'appium:rcMode': 'js'
+  }
+}
+2023-02-14T09:58:13.419Z WARN webdriver: Request failed with status 500 due to An unknown server-side error occurred while processing the command. Original error: Could not verify the appropriate LG WebOS TV SDK binaries exist. Ensure the LG_WEBOS_TV_SDK_HOME environment variable is set and the CLI dir exists inside of it with accessible permissions
+2023-02-14T09:58:13.419Z INFO webdriver: Retrying 3/3
+2023-02-14T09:58:13.419Z INFO webdriver: [POST] http://127.0.0.1:4723/session
+2023-02-14T09:58:13.419Z INFO webdriver: DATA {
+  capabilities: {
+    alwaysMatch: {
+      platformName: 'LGTV',
+      'appium:automationName': 'webOS',
+      'appium:deviceName': 'tv2',
+      'appium:deviceHost': '192.168.0.174',
+      'appium:chromedriverExecutable': '/Users/kushagravarade/Downloads/chromedriver',
+      'appium:appId': 'com.robustets.app',
+      'appium:rcMode': 'js'
+    },
+    firstMatch: [ {} ]
+  },
+  desiredCapabilities: {
+    platformName: 'LGTV',
+    'appium:automationName': 'webOS',
+    'appium:deviceName': 'tv2',
+    'appium:deviceHost': '192.168.0.174',
+    'appium:chromedriverExecutable': '/Users/kushagravarade/Downloads/chromedriver',
+    'appium:appId': 'com.robustets.app',
+    'appium:rcMode': 'js'
+  }
+}
+2023-02-14T09:58:13.437Z ERROR webdriver: Request failed with status 500 due to unknown error: An unknown server-side error occurred while processing the command. Original error: Could not verify the appropriate LG WebOS TV SDK binaries exist. Ensure the LG_WEBOS_TV_SDK_HOME environment variable is set and the CLI dir exists inside of it with accessible permissions
+2023-02-14T09:58:13.438Z ERROR webdriver: unknown error: An unknown server-side error occurred while processing the command. Original error: Could not verify the appropriate LG WebOS TV SDK binaries exist. Ensure the LG_WEBOS_TV_SDK_HOME environment variable is set and the CLI dir exists inside of it with accessible permissions
+    at getErrorFromResponseBody (file:///Users/kushagravarade/work/appium-drivers/webos/testing_appium_webos_driver/node_modules/webdriver/build/utils.js:194:12)
+    at NodeJSRequest._request (file:///Users/kushagravarade/work/appium-drivers/webos/testing_appium_webos_driver/node_modules/webdriver/build/request/index.js:164:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async startWebDriverSession (file:///Users/kushagravarade/work/appium-drivers/webos/testing_appium_webos_driver/node_modules/webdriver/build/utils.js:63:20)
+    at async Function.newSession (file:///Users/kushagravarade/work/appium-drivers/webos/testing_appium_webos_driver/node_modules/webdriver/build/index.js:24:45)
+    at async remote (file:///Users/kushagravarade/work/appium-drivers/webos/testing_appium_webos_driver/node_modules/webdriverio/build/index.js:48:22)
+    at async remoteAction (/Users/kushagravarade/work/appium-drivers/webos/testing_appium_webos_driver/index.js:21:12)
+file:///Users/kushagravarade/work/appium-drivers/webos/testing_appium_webos_driver/node_modules/webdriver/build/utils.js:68
+        throw new Error('Failed to create session.\n' + message);
+              ^
+
+Error: Failed to create session.
+An unknown server-side error occurred while processing the command. Original error: Could not verify the appropriate LG WebOS TV SDK binaries exist. Ensure the LG_WEBOS_TV_SDK_HOME environment variable is set and the CLI dir exists inside of it with accessible permissions
+    at startWebDriverSession (file:///Users/kushagravarade/work/appium-drivers/webos/testing_appium_webos_driver/node_modules/webdriver/build/utils.js:68:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Function.newSession (file:///Users/kushagravarade/work/appium-drivers/webos/testing_appium_webos_driver/node_modules/webdriver/build/index.js:24:45)
+    at async remote (file:///Users/kushagravarade/work/appium-drivers/webos/testing_appium_webos_driver/node_modules/webdriverio/build/index.js:48:22)
+    at async remoteAction (/Users/kushagravarade/work/appium-drivers/webos/testing_appium_webos_driver/index.js:21:12)
